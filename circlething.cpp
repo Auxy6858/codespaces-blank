@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 int main(){
     bool REPEAT = true;
     std::string UserChoice;
