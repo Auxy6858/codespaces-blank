@@ -12,27 +12,13 @@ int main(){
             float UserRadius;
             std::cout << "What's the radius of the circle?\n";
             std::cin >> UserRadius;
-            
             float CircleArea;
-            
             std::cout << "The area is ";
             std::cout << UserRadius * UserRadius * Pi;
             std::cout << "\n";
-
         } else if (UserChoice == "n") {
             break;
-            
-        } else {
-            
+        } else {       
         }
-
-
     }
-
-    
-
-
-    
-
-    
 }
