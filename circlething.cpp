@@ -14,7 +14,7 @@ int main(){
             std::cin >> UserRadius;
             float CircleArea;
             std::cout << "The area is ";
-            std::cout << UserRadius * UserRadius * Pi;
+            std::cout << pow(UserRadius,2) * Pi;
             std::cout << "\n";
         } else if (UserChoice == "n") {
             break;
